@@ -1,0 +1,23 @@
+fluxo básico de Git
+
+Chegou no local de trabalho
+
+1 - git pull origin main
+
+Depois de finalizar uma tarefa
+
+2 - git status
+(exibe o estado atual do repositório local)
+
+3 - git add <file>
+(adiciona os arquivos não-monitorados para serem comitados)
+
+4 - git status
+
+5 - git commit -m "<mensagem>"
+
+(opcional)
+6 - git log
+(exibe os commits)
+
+7 - git push origin main
