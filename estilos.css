@@ -16,7 +16,7 @@ h2 {
 figure {
     background-color: #F2EDED;
     border: 1px groove #ccc;
-    text-align: justify;
+    text-align: center;
 }
 figcaption {
     font-size: italic;
