@@ -37,3 +37,11 @@ figcaption {
 ul {
     color: #fcf8f8;
 }
+#centro {
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+}
+#text {
+    text-align: right;
+}
