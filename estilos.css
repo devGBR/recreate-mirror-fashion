@@ -2,10 +2,15 @@ p {
     text-align: center;
     text-indent: 30px;
     word-spacing: 5px;
+    padding: 1px 30px 5px;
+    margin: 0 auto;
+    height: 300px;
+    width: 500px;
 }
 body {
     color: #333333;
     font-family: "Lucida Sans Unicode", "Lucida Grande ", sans-serif;
+
 }
 h1 {
     background-image: url(img/sobre-background.jpg);
