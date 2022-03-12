@@ -1,4 +1,5 @@
 p {
+    color: aliceblue;
     text-indent: 15px;
     padding: 0 45px;
     margin: 0 auto;
@@ -9,15 +10,18 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 940px;
+    background-color: rgb(15, 15, 15);
 
 }
 h1 {
     background-image: url(img/sobre-background.jpg);
     padding: 10px;
+    
 }
 h2 {
-    border-bottom: 2px solid #333333;
+    border-bottom: 2px solid #fcf8f8;
     margin-top: 30px;
+    color: #fcf8f8;
 }
 figure {
     background-color: #F2EDED;
@@ -29,4 +33,7 @@ figure {
 figcaption {
     font-size: italic;
     margin-top: 10px;
+}
+ul {
+    color: #fcf8f8;
 }
