@@ -56,12 +56,3 @@ ul {
     float: right;
     margin: 0 0 10px 10px;
 }
-.sacola {
-    background-color: red;
-    background: url("img/busca.png") no-repeat top right;
-
-    font-size: 14px;
-    padding-right: 35px;
-    text-align: right;
-    width: 140px;
-}
