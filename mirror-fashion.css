@@ -74,3 +74,14 @@ body {
 .destaque {
     margin-top: 10px;
 }
+.painel{
+    margin: 10px 0;
+    padding: 10px;
+    width: 445px;
+}
+.novidades {
+    float: left;
+}
+.mais-vendidos{
+    float: right;
+}
