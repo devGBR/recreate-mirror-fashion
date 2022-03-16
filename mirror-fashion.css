@@ -39,6 +39,8 @@ body {
 }
 .menu-departamentos {
     clear: left;
+    margin-top: 10px;
+    padding-bottom: 10px;
 }
 .busca,
 .menu-departamentos {
@@ -68,4 +70,7 @@ body {
 }
 .busca input[type=seach] {
     width: 170px;
+}
+.destaque {
+    margin-top: 10px;
 }
