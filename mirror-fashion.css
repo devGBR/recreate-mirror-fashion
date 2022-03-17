@@ -110,7 +110,7 @@ body {
 }
 footer{
     background-image: url(img/fundo-rodape.png);
-    height: 150px;
+    width: 100%;
     clear: both;
     padding: 20px 0;
 }
@@ -132,4 +132,15 @@ footer{
 }
 footer .container {
     position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+.social {
+    position: absolute;
+    top: 12px;
+    right: 0;
+}
+.social li{
+    float: left;
+    margin-left: 25px;
 }
