@@ -1,13 +1,15 @@
 .novidades {
     float: left;
+    background-color: #f5dcdc;
 }
 .mais-vendidos{
     float: right;
+    background-color: #dcdcf5;
 }
 .painel{
     margin: 10px 0;
     padding: 10px;
-    width: 445px;
+    width: 450px;
 }
 .painel h2{
     font-size: 24px;
@@ -22,22 +24,19 @@
     text-align: center;
     text-decoration: none;
 }
-.novidades {
-    background-color: #f5dcdc; 
-}
-.mais-vendidos{
-    background-color: #dcdcf5;
-}
 .painel li {
     display: inline-block;
     vertical-align: top;
     width: 140px;
 
-    margin:2px;
+    margin:10px;
     padding-bottom: 10px;
 }
-body{
-    width: 940px;
-    margin-left: auto;
-    margin-right: auto;
+.container {
+    margin: 0 auto;
+    width: 1100px
+}
+.img {
+    position: relative;
+    left: 300px;
 }
