@@ -155,3 +155,12 @@ footer .container {
 .menu-opcoes a:active {
     color: #867dc6;
 }
+.menu-departamentos li ul{
+    display: none;
+}
+.menu-departamentos li:hover ul{
+    display: block;
+}
+.menu-departamentos ul ul li{
+    background-color: #dcdcdc;
+}
