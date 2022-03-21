@@ -85,6 +85,7 @@ body {
 .novidades {
     float: left;
     background-color: #f5dcdc;
+    background: linear-gradient(#f5dcdc, #bebef4);
 }
 .mais-vendidos{
     float: right;
