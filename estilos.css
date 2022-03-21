@@ -63,3 +63,12 @@ li:nth-child(2n-1){
 li:nth-child(2n){
     background-color: rgb(59, 58, 58);
 }
+p::first-letter {
+    font-weight: bold;
+}
+h1 + p { 
+    text-indent:  0;
+} 
+p::first-line{ 
+    font-variant: small-caps;
+}
