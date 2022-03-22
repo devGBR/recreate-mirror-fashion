@@ -95,7 +95,7 @@ body {
     display: inline-block;
     vertical-align: top;
     width: 140px;
-    transition: 0.7s;
+    transition: 0.7s ease-out;
     margin:2px;
     padding-bottom: 10px;
 }
@@ -186,6 +186,7 @@ footer .container {
     box-shadow: 0 0 5px #333;
     transition: box-shadow 0.7s;
     transform: scale(1.2) rotate(-5deg); 
+    transition: 0.7s ease-in;
 }
 .painel li:nth-child(2n):hover{
     transform: scale(1.2) rotate(5deg);
