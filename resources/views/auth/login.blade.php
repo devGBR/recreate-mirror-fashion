@@ -16,12 +16,13 @@
             border-radius: 12px;
             padding: 100px;
             background: linear-gradient(#999, #777);
+            box-shadow: 0px 0px 10px #000;
             position: relative;
-            
+            margin: 0 auto;
 
         }
         .container {
-            max-width: 400px;
+            max-width: 310px;
             margin: 0 auto;
             padding: 20px;
         }
@@ -81,11 +82,11 @@
         .flex{
             position: absolute;
             top: 120px;
-            left: 101px;
+            right: -45px;
         }
         .register{
             position: absolute;
-            top: 140px;
+            top: 137px;
             left: 1px;
         }
         .underline{
@@ -95,6 +96,7 @@
             font-family:;
             font-weight: bold;
         } 
+
         .underline:hover{
             color: #555555;
         }
@@ -126,8 +128,22 @@
             width: 40%;
             border-radius: 12px;
             position: relative;
-            left: 580px;
+            left: 20px;
+            animation-name: example;
+            animation-duration: 4s;
+            margin: 0 auto;
             
+        }
+        @keyframes example {
+            0%   {opacity: 0;}
+            50%  {opacity: 0.5;}
+            100% {opacity: 1;}
+            0%   {top: 0;}
+            50%  {top: 120px;}
+            100% {top: 0;}
+        }
+        .inline-flex{
+            font-size: 15px;
         }
         </style>
 </head>
@@ -150,7 +166,7 @@
              <div class = "em">
                 <x-label for="email" :value="__('Email')" />
                 <BR>
-                <x-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required autofocus />
+                <x-input id="email" class=" mt-1 w-full" type="email" name="email" :value="old('email')" required autofocus />
             </div>
         
             {{-- Password --}}
@@ -158,7 +174,7 @@
             <div class="mt-4">
                 <x-label for="password" :value="__('Password')" />
                 <BR>
-                <x-input id="password" class="block mt-1 w-full"
+                <x-input id="password" class=" mt-1 w-full"
                                 type="password"
                                 name="password"
                                 required autocomplete="current-password" />
